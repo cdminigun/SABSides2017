@@ -42,8 +42,6 @@ def client_socket(remote_ip, port, echo_string):
     print "This is my client socket"
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     client_socket.connect((remote_ip, port))
-    print echo_string
-    print do_encrypt(echo_string)
     client_socket.send(do_encrypt(echo_string))
 
 def server_socket(port):
