@@ -23,6 +23,13 @@ optional arguments:
                         prints this string
   -r REMOTE_ADDRESS, --remote_address REMOTE_ADDRESS
                         The remote server client.
+
+Invocations:
+Client:
+python encrypted_client_server.py -t client -p 1337 -e "hello world" -r 127.0.0.1
+Server:
+python encrypted_client_server.py -t server -p 1337
+
 ```
 tcp_echo_client.py - TCP client example
 
