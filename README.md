@@ -6,7 +6,7 @@ Programs and slides from my talk at San Antonio BSides 2017
 bad_encryption_template.py - An example of improperly handling IVs for AES-CBC in python
 
 encrypted_client_server.py - A better example of handling IV and AES-CBC in python (stil not completely secure) A better implementation would involve some sort of key exchange protocol, like diffie hellman, to exchange IVs.
-
+```
 usage: encrypted_client_server.py [-h] [-t TYPE_OF_SOCKET] [-p PORT]
                                   [-e ECHO_STRING] [-r REMOTE_ADDRESS]
 
@@ -23,7 +23,7 @@ optional arguments:
                         prints this string
   -r REMOTE_ADDRESS, --remote_address REMOTE_ADDRESS
                         The remote server client.
-
+```
 tcp_echo_client.py - TCP client example
 
 
